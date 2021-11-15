@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Raleway:wght@300&family=Yuji+Syuku&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    scroll-behavior: smooth;
+    
+}
+.outer{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+.inner_div{
+    height: 50vh;
+    width: 70vw;
+    background-color: antiquewhite;
+   padding: 10px;
+   background-color: skyblue;
+   
+  
+}
+.quote{
+    text-align: center;
+    height:40vh;
+    border: 2px solid red;
+    background-color: slategray;
+    
+}
+.quote h2{
+    padding:5px ;
+}
+.quote p{
+    padding: 0 30px;
+    margin-top: 25px;
+    color: rgb(76, 23, 199);
+    font-weight: bold;
+   
+   
+}
+.quote h5{
+    margin-top: 30px;
+   
+}
+.next_btn{
+   position: absolute;
+   left: 45%;
+   margin-top: 7px;
+   padding:5px ;
+   cursor: pointer;
+
+}
+.arrow{
+    color: palevioletred;
+    font-weight: bolder;
+}
+
+@media (max-width:762px) {
+    .quote p{
+        font-size: 14px;
+        padding: 0 15px;
+        margin-top: 15px;
+        text-align: justify;
+        
+    }
+}
+@media (max-width:762px) {
+        .quote h5{
+            margin-top: 15px;
+           
+            text-align: center;
+        }
+    }
+    @media (max-width:992px) {
+        .quote p{
+            font-size: 14px;
+            padding: 0 22px;
+            margin-top: 20px;
+           
+        }
+    }
+    @media (max-width:992px) {
+        .quote h5{
+            margin-top: 25px;
+           
+            text-align: center;
+        }
+    }
